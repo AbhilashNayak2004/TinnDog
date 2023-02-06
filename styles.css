@@ -1,0 +1,130 @@
+h1 {  
+    font-family: 'Montserrat-Black', sans-serif; 
+    font-size: 3rem;  
+    line-height: 1.5;  
+}
+#title{
+    background-color: #ff4c68;
+    font-family: 'Montserrat';
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+/*navbar styling*/
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 20px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Montserrat-Light';
+}
+/*designing buttons*/
+.btn{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+   align-items: center;
+   position: absolute;
+   right: 20%;
+
+}
+/*designing feature box*/
+h3{
+    font-size: 1.5rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+.box{
+    padding: 4.5%;
+    text-align: center;
+}
+.icon{
+    color: #ef7183;
+    margin-bottom: 1.3rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/*designing testimonials*/
+#testimonials{
+    text-align: center;
+    background-color: #ef7183;
+    color: white;
+}
+h2{
+    font-family: 'Montserrat-Bold';
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.dog{
+    width: 15%;
+    border-radius: 100%;
+    margin: 15px;
+}
+#press{
+    text-align: center;
+    background-color: #ef7183;
+    padding-bottom: 3%;
+}
+.company{
+    width: 20%;
+    margin: 20px 50px 20px;
+}
+/*designing pricing section*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.price{
+    padding: 2% 3%;
+}
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        transform: rotate(0);
+        position: static;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color: white;
+    text-align: center;
+}
+.text{
+    font-family: 'Montserrat-Black';
+    font-size: 4.5rem;
+    line-height: 1.5;
+   color: white;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.awesome{
+    margin: 4% 2%;
+}
